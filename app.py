@@ -1,10 +1,6 @@
 
 from flask import Flask, render_template, request, redirect, url_for
 
-from sqlalchemy import create_engine
-from sqlalchemy import Column, Integer, String, Float
-
-from sqlalchemy.ext.declarative import declarative_base
 import csv
 import joblib
 
