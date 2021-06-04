@@ -4,3 +4,9 @@ h1 {
     text-align: center;
     padding: 10px;
 }
+body {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}

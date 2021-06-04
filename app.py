@@ -35,8 +35,8 @@ def user(usr):
         1: 'are'
     }
     txt_result = win_lose_dict[result[0]]
-    
-    return f"<h1>The {usr}s {txt_result} going to make the playoffs</h1>"
+    return render_template("Results.html",usr=usr,txt_result=txt_result)
+    #return f"<h1>The {usr} {txt_result} going to make the playoffs</h1>"
     # csvreader = csv.reader("teams.csv")
     # next(csvreader,None)
     # for row in csvreader:
