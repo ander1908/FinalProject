@@ -2,7 +2,7 @@
 from flask import Flask, render_template, request, redirect, url_for
 
 import csv
-import joblib
+#import joblib
 
 app = Flask(__name__)
 
@@ -31,7 +31,7 @@ def user(usr):
             #apply model
             
             filename = 'SVM.sav'
-            loaded_model=joblib.load(filename)
+            #loaded_model=joblib.load(filename)
             result=loaded_model(cleaned_team)
             if result[0] == 0:
                 status = " are not "
