@@ -8,11 +8,11 @@ This was the final project for the Northwestern Bootcamp. Due to scheduling and 
 3. The data was the trained using a simple binary logic gate (0 for missing the playoffs, 1 for making the playoffs)
 4. The data was trained through the previous season and trained against the 2021 season. The older seasons were protected from use by a paywall at the API. Otherwise I would have utilized more training points. 
 
-![Data Cleaning](SKLearnSnapshot.jpg)
+![Data Cleaning](images/sklearnsnapshot.jpg)
 
 5. I utilized the machine learning kit SKlearn (utilizing the poly kernel) to create a model. 
 
-![Saving as Model](savingasmodel.jpg)
+![Saving as Model](images/savingasmodel.jpg)
 
 
 6. I saved the model, and then the team data as a CSV.
@@ -22,4 +22,4 @@ This was the final project for the Northwestern Bootcamp. Due to scheduling and 
 8. Once I got the functionality working I hosted the page on heroku to allow for user input. 
 
 
-![Web App](webapp.jpg)
+![Web App](images/webapp.jpg)
