@@ -1,4 +1,4 @@
-# FinalProject
+# NHL Playoff Predictions
 Final Project 3
 This was the final project for the Northwestern Bootcamp. Due to scheduling and outside conflicts this is was an individual effort for the final group project. The goal for this project was to see how well individual team statistics could predict that a team would make the playoffs
 
